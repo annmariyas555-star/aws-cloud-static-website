@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cloud-Hosted Static Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">CloudProject</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#architecture">Architecture</a></li>
+        <li><a href="#features">Features</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Cloud-Hosted Static Website</h1>
+      <p>Deployed securely using AWS S3, CloudFront CDN, SSL/TLS, and Route 53.</p>
+      <a href="#architecture" class="btn">View Architecture</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <h2>Project Overview</h2>
+      <p>
+        This is a high-performance, globally distributed static website hosted entirely on 
+        Amazon Web Services. It demonstrates serverless architecture, low latency delivery via CDN caching, 
+        and secure communication over HTTPS.
+      </p>
+    </section>
+
+    <section id="architecture" class="section bg-light">
+      <h2>AWS Architecture</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="card-icon">🪣</div>
+          <h3>Amazon S3</h3>
+          <p>Stores static assets (HTML, CSS, JS, images) with high durability and security.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">⚡</div>
+          <h3>CloudFront CDN</h3>
+          <p>Delivers cached content globally with ultra-low latency via edge locations.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔒</div>
+          <h3>AWS ACM (SSL)</h3>
+          <p>Enables free HTTPS certificates for encrypted, secure communication.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Cloud-Hosted Static Website Project | Hosted on AWS</p>
+  </footer>
+</body>
+</html>
